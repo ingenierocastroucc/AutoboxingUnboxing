@@ -1,0 +1,55 @@
+
+package autoboxingunboxing;
+
+/**
+ *
+ * @author PEDRO
+ */
+public class AutoboxingUnboxing {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        
+        Integer eneteroObj = 10;
+        Float flotanteObj = 15.f;
+        Double doubleObj = 40.1;
+        Byte byteObj =1;
+        Boolean booleanObj=true;
+        Character charObj='C';
+        Long longObj=13338L;
+        Short shortObj=13;
+        
+        System.out.println("Autoboxing"); 
+        System.out.println("\neneteroObj:" +" "+ eneteroObj.intValue()); 
+        System.out.println("flotanteObj:" +" "+ flotanteObj.floatValue()); 
+        System.out.println("doubleObj:" +" "+ doubleObj.doubleValue()); 
+        System.out.println("byteObj:" +" "+ byteObj.byteValue()); 
+        System.out.println("booleanObj:" +" "+ booleanObj.booleanValue()); 
+        System.out.println("charObj:" +" "+ charObj.charValue());
+        System.out.println("longObj:" +" "+ longObj.longValue());
+        System.out.println("shortObj:" +" "+ shortObj.shortValue());
+        
+        int enetero=eneteroObj;
+        float flotante=flotanteObj;
+        double doble=doubleObj;  
+        byte bit=byteObj;
+        boolean boo=booleanObj;
+        char cha=charObj;
+        long lon=longObj;
+        short sho=shortObj;
+        
+        System.out.println("\nUnboxing"); 
+        System.out.println("\nEnetero:" +" "+ enetero); 
+        System.out.println("Flotante:" +" "+ flotante); 
+        System.out.println("Double:" +" "+doble); 
+        System.out.println("Bit:" +" "+bit); 
+        System.out.println("Boolean:" +" "+boo); 
+        System.out.println("Char:" +" "+cha);
+        System.out.println("Long:" +" "+lon);
+        System.out.println("Short:" +" "+sho);
+    }
+    
+}
